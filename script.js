@@ -16,3 +16,5 @@ async function randomQuote() {
   quoteNumber.appendChild(p);
   p.innerHTML = "ADVICE #" + advice.slip.id;
 }
+
+randomQuote();
